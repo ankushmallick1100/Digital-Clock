@@ -6,5 +6,5 @@ setInterval(() => {
     a = new Date(); 
     date = a.toLocaleDateString(undefined, options);
     time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
-    document.getElementById('time').innerHTML = time + "<br>on " + date;
+    document.getElementById('time').innerHTML = time + " on " + date;
 }, 1000);
